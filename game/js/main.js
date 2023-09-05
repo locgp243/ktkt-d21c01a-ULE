@@ -3682,7 +3682,7 @@ function selectOptionHealth(option) {
                 relationshipItemId: 5,
                 relationshipItemName: "Bạn Huy",
                 relationshipItemIntimacy: 10,
-                relationshipItemImg: "/assets/img/relationship/banHuy.jpg",
+                relationshipItemImg: "../assets/img/relationship/banHuy.jpg",
                 relationshipItemBuff: {
                     healthyPoint: 0,
                     happyPoint: 0,
@@ -4342,7 +4342,7 @@ function selectOptionEventMonths2(option) {
                 relationshipItemId: 4,
                 relationshipItemName: "Bạn Thư",
                 relationshipItemIntimacy: 10,
-                relationshipItemImg: "/assets/img/relationship/banThu.jpg",
+                relationshipItemImg: "../assets/img/relationship/banThu.jpg",
                 relationshipItemBuff: {
                     healthyPoint: 0,
                     happyPoint: 10,
@@ -4787,7 +4787,7 @@ function selectOptionEventMonths4(option) {
                 relationshipItemId: 2,
                 relationshipItemName: "Thầy Giáo",
                 relationshipItemIntimacy: 10,
-                relationshipItemImg: "/assets/img/relationship/thayGiao.jpg",
+                relationshipItemImg: "../assets/img/relationship/thayGiao.jpg",
                 relationshipItemBuff: {
                     healthyPoint: 0,
                     happyPoint: 0,
@@ -5371,45 +5371,45 @@ const exerciseListItem = [
         exerciseItemId: 1,
         exerciseItemName: "Chạy Bộ",
         exerciseItemPrice: 0,
-        exerciseItemImg: "./img/sports/jogging.jpg",
+        exerciseItemImg: "../assets/img/img-game/sports/jogging.jpg",
         exerciseItemBuff: {
             healthyPoint: 0,
             happyPoint: 0,
         },
-        exerciseImgChild: "../../assets/img/img-game/sports/jogging-item.jpg",
+        exerciseImgChild: "../assets/img/img-game/sports/jogging-item.jpg",
     },
     {
         exerciseItemId: 2,
         exerciseItemName: "Tập Gym",
         exerciseItemPrice: 600000,
-        exerciseItemImg: "./img/sports/gym.jpg",
+        exerciseItemImg: "../assets/img/img-game/sports/gym.jpg",
         exerciseItemBuff: {
             healthyPoint: 10,
             happyPoint: 5,
         },
-        exerciseImgChild: "../../assets/img/img-game/sports/gym-item.jpg",
+        exerciseImgChild: "../assets/img/img-game/sports/gym-item.jpg",
     },
     {
         exerciseItemId: 3,
         exerciseItemName: "Đá Bóng",
         exerciseItemPrice: 300000,
-        exerciseItemImg: "./img/sports/football.jpg",
+        exerciseItemImg: "../assets/img/img-game/sports/football.jpg",
         exerciseItemBuff: {
             healthyPoint: 8,
             happyPoint: 3,
         },
-        exerciseImgChild: "../../assets/img/img-game/sports/football-item.jpg",
+        exerciseImgChild: "../assets/img/img-game/sports/football-item.jpg",
     },
     {
         exerciseItemId: 4,
         exerciseItemName: " chơi Cầu lông",
         exerciseItemPrice: 400000,
-        exerciseItemImg: "./img/sports/badminton.jpg",
+        exerciseItemImg: "../assets/img/img-game/sports/badminton.jpg",
         exerciseItemBuff: {
             healthyPoint: 6,
             happyPoint: 2,
         },
-        exerciseImgChild: "../../assets/img/img-game/sports/badminton-item.jpg",
+        exerciseImgChild: "../assets/img/img-game/sports/badminton-item.jpg",
     },
 ];
 exerciseListItem.forEach((item) => {
@@ -6727,40 +6727,40 @@ const volunteerListItem = [
         volunteerItemId: 1,
         volunteerItemName: "Hiến Máu",
         volunteerItemPrice: 0,
-        volunteerItemImg: "../img/img-game/volunteer/hien-mau.jpg",
+        volunteerItemImg: "../assets/img/img-game/volunteer/hien-mau.jpg",
         volunteerItemBuff: {
             healthyPoint: -5,
             happyPoint: 5,
             moralityPoint: 4,
         },
         volunteerItemImgChild:
-            "../img/img-game/volunteer/hien-mau-item1.jpg",
+            "../assets/img/img-game/volunteer/hien-mau-item1.jpg",
     },
     {
         volunteerItemId: 2,
         volunteerItemName: "Tặng quà cho người lớn tuổi",
         volunteerItemPrice: 0,
-        volunteerItemImg: "../img/img-game/volunteer/help-old.jpg",
+        volunteerItemImg: "../assets/img/img-game/volunteer/help-old.jpg",
         volunteerItemBuff: {
             healthyPoint: -2,
             happyPoint: 2,
             moralityPoint: 2,
         },
         volunteerItemImgChild:
-            "../img/img-game/volunteer/help-old-item1.jpg",
+            "../assets/img/img-game/volunteer/help-old-item1.jpg",
     },
     {
         volunteerItemId: 3,
         volunteerItemName: "Quyên góp",
         volunteerItemPrice: 1000000,
-        volunteerItemImg: "../img/img-game/volunteer/donate.jpg",
+        volunteerItemImg: "../assets/img/img-game/volunteer/donate.jpg",
         volunteerItemBuff: {
             healthyPoint: 0,
             happyPoint: 2,
             moralityPoint: 3,
         },
         volunteerItemImgChild:
-            "../img/img-game/volunteer/donate-item1.jpg",
+            "../assets/img/img-game/volunteer/donate-item1.jpg",
     },
 ];
 
@@ -6843,7 +6843,7 @@ const workListItem = [
         workItemId: 1,
         workItemName: "Nhân Viên Coffee",
         workItemPrice: 2400000,
-        workItemImg: "../img/img-game/work/cafe.jpg",
+        workItemImg: "../assets/img/img-game/work/cafe.jpg",
         workItemBuff: {
             healthyPoint: 3,
             happyPoint: 2,
@@ -6854,7 +6854,7 @@ const workListItem = [
         workItemId: 2,
         workItemName: "Nhân viên giao hàng",
         workItemPrice: 4800000,
-        workItemImg: "../img/img-game/work/shipper.jpg",
+        workItemImg: "../assets/img/img-game/work/shipper.jpg",
         workItemBuff: {
             healthyPoint: 8,
             happyPoint: 5,
@@ -6865,7 +6865,7 @@ const workListItem = [
         workItemId: 3,
         workItemName: "Phụ hồ",
         workItemPrice: 8000000,
-        workItemImg: "../img/img-game/work/phuho.png",
+        workItemImg: "../assets/img/img-game/work/phuho.png",
         workItemBuff: {
             healthyPoint: 10,
             happyPoint: 7,
@@ -6931,7 +6931,7 @@ const relaxListItem = [
         relaxItemId: 1,
         relaxItemName: "Caro",
         relaxItemPrice: 0,
-        relaxItemImg: "../img/img-game/gaming/caro.jpg",
+        relaxItemImg: "../assets/img/img-game/gaming/caro.jpg",
         relaxItemBuff: {
             healthyPoint: 0,
             happyPoint: 0,
@@ -6953,7 +6953,7 @@ const relaxListItem = [
         relaxItemId: 3,
         relaxItemName: "Cờ Vua",
         relaxItemPrice: 0,
-        relaxItemImg: "../img/img-game/gaming/co-vua.jpg",
+        relaxItemImg: "../assets/img/img-game/gaming/co-vua.jpg",
         relaxItemBuff: {
             healthyPoint: 0,
             happyPoint: 0,
@@ -6964,7 +6964,7 @@ const relaxListItem = [
         relaxItemId: 4,
         relaxItemName: "Đuổi Hình Bắt Chữ",
         relaxItemPrice: 0,
-        relaxItemImg: "../img/img-game/gaming/duoiHinhBC.png",
+        relaxItemImg: "../assets/img/img-game/gaming/duoiHinhBC.png",
         relaxItemBuff: {
             healthyPoint: 0,
             happyPoint: 0,
@@ -6975,7 +6975,7 @@ const relaxListItem = [
         relaxItemId: 5,
         relaxItemName: "FlexBox Block",
         relaxItemPrice: 0,
-        relaxItemImg: "../img/img-game/gaming/conChim.png",
+        relaxItemImg: "../assets/img/img-game/gaming/conChim.png",
         relaxItemBuff: {
             healthyPoint: 0,
             happyPoint: 0,
@@ -7514,7 +7514,7 @@ const relationshipListItem = [
         relationshipItemName: "Bé Tư",
         relationshipItemIntimacy: 10,
         relationshipItemImg: 
-        "/game/img/inazuma-commission-spoil-nahida-name-4-1736-removebg-preview.png",
+        "../assets/img/inazuma-commission-spoil-nahida-name-4-1736-removebg-preview.png",
         relationshipItemBuff: {
             healthyPoint: 0,
             happyPoint: 0,
@@ -7526,7 +7526,7 @@ const relationshipListItem = [
         relationshipItemId: 6,
         relationshipItemName: "Bố Mẹ",
         relationshipItemIntimacy: 60,
-        relationshipItemImg: "/game/img/relationship/boMe.jpg",
+        relationshipItemImg: "../assets/img/relationship/boMe.jpg",
         relationshipItemBuff: {
             healthyPoint: 0,
             happyPoint: 0,
