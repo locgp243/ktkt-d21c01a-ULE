@@ -5660,7 +5660,7 @@ const shopItems = [
     {
         i: "item2",
         a: "",
-        img: "../../assets/img/img-game/shop/truyen-kieu.jpg",
+        img: "../img/img-game/shop/truyen-kieu.jpg",
         Text: "Truyện Kiều",
         cointItem: 300000,
 
@@ -5679,7 +5679,7 @@ const shopItems = [
     {
         i: "item3",
         a: "",
-        img: "../../assets/img/img-game/shop/co-tuong.jpg",
+        img: "../img/img-game/shop/co-tuong.jpg",
         Text: "Nhập Môn Cờ Tướng",
         cointItem: 150000,
 
@@ -5698,7 +5698,7 @@ const shopItems = [
     {
         i: "item4",
         a: "",
-        img: "../../assets/img/img-game/shop/lap-trinh-C.jpg",
+        img: "../img/img-game/shop/lap-trinh-C.jpg",
         Text: "Nhập Môn Lập Trình",
         cointItem: 219000,
 
@@ -5717,7 +5717,7 @@ const shopItems = [
     {
         i: "item5",
         a: "",
-        img: "../../assets/img/img-game/shop/dac-nhan-tam.jpg",
+        img: "../img/img-game/shop/dac-nhan-tam.jpg",
         Text: "Đắc nhân tâm",
         cointItem: 189000,
 
@@ -5736,7 +5736,7 @@ const shopItems = [
     {
         i: "item6",
         a: "",
-        img: "../../assets/img/img-game/shop/thuoc-la-dt.jpg",
+        img: "../img/img-game/shop/thuoc-la-dt.jpg",
         Text: "Thuốc Lá điện tử",
         cointItem: 200000,
 
@@ -5755,7 +5755,7 @@ const shopItems = [
     {
         i: "item7",
         a: "donate",
-        img: "../../assets/img/img-game/shop/panacotta.jpg",
+        img: "../img/img-game/shop/panacotta.jpg",
         Text: "Pudding",
         cointItem: 50000,
 
@@ -5774,7 +5774,7 @@ const shopItems = [
     {
         i: "item8",
         a: "donate",
-        img: "../../assets/img/img-game/shop/hoa.jpg",
+        img: "../img/img-game/shop/hoa.jpg",
         Text: "Hoa Hồng",
         cointItem: 185000,
 
@@ -5793,7 +5793,7 @@ const shopItems = [
     {
         i: "item9",
         a: "donate",
-        img: "../../assets/img/img-game/shop/gau.jpg",
+        img: "../img/img-game/shop/gau.jpg",
         Text: "Gấu Bông",
         cointItem: 220000,
 
@@ -6727,40 +6727,40 @@ const volunteerListItem = [
         volunteerItemId: 1,
         volunteerItemName: "Hiến Máu",
         volunteerItemPrice: 0,
-        volunteerItemImg: "../../assets/img/img-game/volunteer/hien-mau.jpg",
+        volunteerItemImg: "../img/img-game/volunteer/hien-mau.jpg",
         volunteerItemBuff: {
             healthyPoint: -5,
             happyPoint: 5,
             moralityPoint: 4,
         },
         volunteerItemImgChild:
-            "../../assets/img/img-game/volunteer/hien-mau-item1.jpg",
+            "../img/img-game/volunteer/hien-mau-item1.jpg",
     },
     {
         volunteerItemId: 2,
         volunteerItemName: "Tặng quà cho người lớn tuổi",
         volunteerItemPrice: 0,
-        volunteerItemImg: "../../assets/img/img-game/volunteer/help-old.jpg",
+        volunteerItemImg: "../img/img-game/volunteer/help-old.jpg",
         volunteerItemBuff: {
             healthyPoint: -2,
             happyPoint: 2,
             moralityPoint: 2,
         },
         volunteerItemImgChild:
-            "../../assets/img/img-game/volunteer/help-old-item1.jpg",
+            "../img/img-game/volunteer/help-old-item1.jpg",
     },
     {
         volunteerItemId: 3,
         volunteerItemName: "Quyên góp",
         volunteerItemPrice: 1000000,
-        volunteerItemImg: "../../assets/img/img-game/volunteer/donate.jpg",
+        volunteerItemImg: "../img/img-game/volunteer/donate.jpg",
         volunteerItemBuff: {
             healthyPoint: 0,
             happyPoint: 2,
             moralityPoint: 3,
         },
         volunteerItemImgChild:
-            "../../assets/img/img-game/volunteer/donate-item1.jpg",
+            "../img/img-game/volunteer/donate-item1.jpg",
     },
 ];
 
@@ -6843,7 +6843,7 @@ const workListItem = [
         workItemId: 1,
         workItemName: "Nhân Viên Coffee",
         workItemPrice: 2400000,
-        workItemImg: "../../assets/img/img-game/work/cafe.jpg",
+        workItemImg: "../img/img-game/work/cafe.jpg",
         workItemBuff: {
             healthyPoint: 3,
             happyPoint: 2,
@@ -6854,7 +6854,7 @@ const workListItem = [
         workItemId: 2,
         workItemName: "Nhân viên giao hàng",
         workItemPrice: 4800000,
-        workItemImg: "../../assets/img/img-game/work/shipper.jpg",
+        workItemImg: "../img/img-game/work/shipper.jpg",
         workItemBuff: {
             healthyPoint: 8,
             happyPoint: 5,
@@ -6865,7 +6865,7 @@ const workListItem = [
         workItemId: 3,
         workItemName: "Phụ hồ",
         workItemPrice: 8000000,
-        workItemImg: "../../assets/img/img-game/work/phuho.png",
+        workItemImg: "../img/img-game/work/phuho.png",
         workItemBuff: {
             healthyPoint: 10,
             happyPoint: 7,
@@ -6931,7 +6931,7 @@ const relaxListItem = [
         relaxItemId: 1,
         relaxItemName: "Caro",
         relaxItemPrice: 0,
-        relaxItemImg: "../../assets/img/img-game/gaming/caro.jpg",
+        relaxItemImg: "../img/img-game/gaming/caro.jpg",
         relaxItemBuff: {
             healthyPoint: 0,
             happyPoint: 0,
@@ -6953,7 +6953,7 @@ const relaxListItem = [
         relaxItemId: 3,
         relaxItemName: "Cờ Vua",
         relaxItemPrice: 0,
-        relaxItemImg: "../../assets/img/img-game/gaming/co-vua.jpg",
+        relaxItemImg: "../img/img-game/gaming/co-vua.jpg",
         relaxItemBuff: {
             healthyPoint: 0,
             happyPoint: 0,
@@ -6964,7 +6964,7 @@ const relaxListItem = [
         relaxItemId: 4,
         relaxItemName: "Đuổi Hình Bắt Chữ",
         relaxItemPrice: 0,
-        relaxItemImg: "../../assets/img/img-game/gaming/duoiHinhBC.png",
+        relaxItemImg: "../img/img-game/gaming/duoiHinhBC.png",
         relaxItemBuff: {
             healthyPoint: 0,
             happyPoint: 0,
@@ -6975,7 +6975,7 @@ const relaxListItem = [
         relaxItemId: 5,
         relaxItemName: "FlexBox Block",
         relaxItemPrice: 0,
-        relaxItemImg: "../../assets/img/img-game/gaming/conChim.png",
+        relaxItemImg: "../img/img-game/gaming/conChim.png",
         relaxItemBuff: {
             healthyPoint: 0,
             happyPoint: 0,
