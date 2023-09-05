@@ -7513,8 +7513,8 @@ const relationshipListItem = [
         relationshipItemId: 1,
         relationshipItemName: "Bé Tư",
         relationshipItemIntimacy: 10,
-        relationshipItemImg:
-            "/assets/img/inazuma-commission-spoil-nahida-name-4-1736-removebg-preview.png",
+        relationshipItemImg: 
+        "../img/inazuma-commission-spoil-nahida-name-4-1736-removebg-preview.png",
         relationshipItemBuff: {
             healthyPoint: 0,
             happyPoint: 0,
@@ -7526,7 +7526,7 @@ const relationshipListItem = [
         relationshipItemId: 6,
         relationshipItemName: "Bố Mẹ",
         relationshipItemIntimacy: 60,
-        relationshipItemImg: "/assets/img/relationship/boMe.jpg",
+        relationshipItemImg: "../img/relationship/boMe.jpg",
         relationshipItemBuff: {
             healthyPoint: 0,
             happyPoint: 0,
