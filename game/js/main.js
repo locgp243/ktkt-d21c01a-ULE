@@ -5660,7 +5660,7 @@ const shopItems = [
     {
         i: "item2",
         a: "",
-        img: "/game/img/img-game/shop/truyen-kieu.jpg",
+        img: "/assets/img/img-game/shop/truyen-kieu.jpg",
         Text: "Truyện Kiều",
         cointItem: 300000,
 
@@ -5679,7 +5679,7 @@ const shopItems = [
     {
         i: "item3",
         a: "",
-        img: "/game/img/img-game/shop/co-tuong.jpg",
+        img: "/assets/img/img-game/shop/co-tuong.jpg",
         Text: "Nhập Môn Cờ Tướng",
         cointItem: 150000,
 
@@ -5698,7 +5698,7 @@ const shopItems = [
     {
         i: "item4",
         a: "",
-        img: "/game/img/img-game/shop/lap-trinh-C.jpg",
+        img: "/assets/img/img-game/shop/lap-trinh-C.jpg",
         Text: "Nhập Môn Lập Trình",
         cointItem: 219000,
 
@@ -5717,7 +5717,7 @@ const shopItems = [
     {
         i: "item5",
         a: "",
-        img: "/game/img/img-game/shop/dac-nhan-tam.jpg",
+        img: "/assets/img/img-game/shop/dac-nhan-tam.jpg",
         Text: "Đắc nhân tâm",
         cointItem: 189000,
 
@@ -5736,7 +5736,7 @@ const shopItems = [
     {
         i: "item6",
         a: "",
-        img: "/game/img/img-game/shop/thuoc-la-dt.jpg",
+        img: "/assets/img/img-game/shop/thuoc-la-dt.jpg",
         Text: "Thuốc Lá điện tử",
         cointItem: 200000,
 
@@ -5755,7 +5755,7 @@ const shopItems = [
     {
         i: "item7",
         a: "donate",
-        img: "/game/img/img-game/shop/panacotta.jpg",
+        img: "/assets/img/img-game/shop/panacotta.jpg",
         Text: "Pudding",
         cointItem: 50000,
 
